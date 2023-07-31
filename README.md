@@ -1,6 +1,6 @@
 # GetToDo
 ### GetX Statement Todo Application
-<img src="Whole.png" alt="Whole Screen" width="1280px" height="500px">
+<img src="screen.png" alt="Whole Screen" width="1280px" height="500px">
 
 ## 프로젝트 요약
 ![Langauge:Dart](https://img.shields.io/badge/Language-Flutter-blue) ![platform:CrossPlatForm](https://img.shields.io/badge/Platform-CrossPlatfrom-blue)
@@ -8,30 +8,19 @@
  
 > **Flutter 개인 프로젝트**
 * GetX 상태관리를 활용하여 만들어 본 todo 어플리케이션입니다.
-* 
-* Card Swiper 위젯을 사용하여 카드 넘김 형태의 UI로 만들었습니다.
+* Task CURD 구현을 위하여 'lib/home/controller' 에 CRUD 기능이 포함되어 있는 메소드를 추가
+* dotted_border 카드 위젯을 사용
+* step_progress_indicator 패키지를 사용하여 현재 할 일의 진도가 어느 정도인지를 UI로 나타냄
 <br>
 
-## Logic
-<img src = "MVVM NewsApp.drawio.png" alt="News App" width="1280px" height="500px">
-
-
 ## Dependency
-- `dotted_border`:  <a target="_blank" href="https://pub.dev/packages/card_swiper">https://pub.dev/packages/card_swiper</a>
-- `equatable`: <a target="_blank" href="https://pub.dev/packages/http">https://pub.dev/packages/http</a>
-- `flutter_easyloading`: <a target="_blank" href="https://pub.dev/packages/url_launcher">https://pub.dev/packages/url_launcher</a>
-- `get`:  <a target="_blank" href="https://pub.dev/packages/card_swiper">https://pub.dev/packages/card_swiper</a>
-- `get_storage`: <a target="_blank" href="https://pub.dev/packages/http">https://pub.dev/packages/http</a>
-- `intl`: <a target="_blank" href="https://pub.dev/packages/url_launcher">https://pub.dev/packages/url_launcher</a>
-- `step_progress_indicator`: <a target="_blank" href="https://pub.dev/packages/url_launcher">https://pub.dev/packages/url_launcher</a>
-
-## API
-https://newsapi.org/
-
-## 사용할 때('lib/repository/news_api')
-```dart
-var keyApi = "YOUR API_KEY";
-```
+- `dotted_border`:  <a target="_blank" href="https://pub.dev/packages/dotted_border">https://pub.dev/packages/dotted_border</a>
+- `equatable`: <a target="_blank" href="https://pub.dev/packages/equatable">https://pub.dev/packages/equatable</a>
+- `flutter_easyloading`: <a target="_blank" href="https://pub.dev/packages/flutter_easyloading">https://pub.dev/packages/flutter_easyloading</a>
+- `get`:  <a target="_blank" href="https://pub.dev/packages/get">https://pub.dev/packages/get</a>
+- `get_storage`: <a target="_blank" href="https://pub.dev/packages/get_storage">https://pub.dev/packages/get_storage/http</a>
+- `intl`: <a target="_blank" href="https://pub.dev/packages/intl"https://pub.dev/packages/intl</a>
+- `step_progress_indicator`: <a target="_blank" href="https://pub.dev/packages/step_progress_indicator">https://pub.dev/packages/step_progress_indicator</a>
 
 ## 시연영상
 https://youtu.be/JIkdfyKFCjk
